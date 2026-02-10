@@ -1,0 +1,7 @@
+services:
+  jmxnode1:
+    image: jmxexporter:latest
+    volumes:
+      - ./config.yml:/config.yml
+    ports:
+      - 8000:8000
