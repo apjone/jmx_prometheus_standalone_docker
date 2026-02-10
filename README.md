@@ -1,0 +1,2 @@
+# jmx_prometheus_standalone_docker
+Docker image for running jmx_prometheus_standalone
