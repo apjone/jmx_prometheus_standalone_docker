@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/apjone/jmx_prometheus_standalone_docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/apjone/jmx_prometheus_standalone_docker/actions/workflows/docker-image.yml)
+
 # jmx_prometheus_standalone_docker
 Docker image using ubuntu/jre to run jmx_prometheus_standalone
 
