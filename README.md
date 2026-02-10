@@ -15,7 +15,7 @@ docker build -t jmxexporter:latest -f docker/Dockerfile .
 ```
 services:
   jmxnode1:
-    image: jmxexporter:latest
+    image: ghcr.io/apjone/jmx_prometheus_standalone_docker:main
     volumes:
       - ./config.yml:/config.yml
     ports:
